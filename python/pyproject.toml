@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aws-lambda"
+version = "0.1.0"
+description = ""
+authors = ["JoeyKim"]
+readme = "README.md"
+packages = [{include = "aws_lambda"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.22.0"
+fastapi = "^0.95.2"
+mangum = "^0.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
